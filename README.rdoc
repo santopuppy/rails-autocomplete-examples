@@ -22,3 +22,6 @@ Peruse the following files in order to gain insight on autosuggest with SOLR:
 
 === TODO
 The code here only handles autosuggest on has_one associations. Maybe in the future I could add a sample on how to create tsvector column on has_many associations.
+
+=== Credits
+* Inspired by http://bradleypriest.com/2013/08/27/pgsearch_talk/

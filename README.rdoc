@@ -2,3 +2,20 @@
 
 This rails app contains examples on how to implement autosuggest functionality using SOLR and
 PostgreSQL's native search function.
+
+=== SOLR
+
+Peruse the following files in order to gain insight on autosuggest with SOLR:
+* config/initializers/sunspot.rb
+* solr/conf/schema.xml (lines 62-72, 109-120, and line 272)
+* app/models/product.rb (lines 8-11)
+* app/models/sample.rb (on how to use it)
+* Gemfile (line 27-28)
+
+=== PostgreSQL's native text search
+* migration files
+* lib/tasks/enhance_schema_load.rake
+* lib/*.rb
+* app/models/product.rb
+* app/models/sample.rb
+* Gemfile (line 30)

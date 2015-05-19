@@ -2,4 +2,3 @@
 
 This rails app contains examples on how to implement autosuggest functionality using SOLR and
 PostgreSQL's native search function.
-<tt>rake doc:app</tt>.

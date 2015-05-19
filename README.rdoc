@@ -1,28 +1,21 @@
 == README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This rails app contains examples on how to implement autosuggest functionality using SOLR and
+PostgreSQL's native search function.
 
-Things you may want to cover:
+=== SOLR
 
-* Ruby version
+Peruse the following files in order to gain insight on autosuggest with SOLR:
+* config/initializers/sunspot.rb
+* solr/conf/schema.xml (lines 62-72, 109-120, and line 272)
+* app/models/product.rb (lines 8-11)
+* app/models/sample.rb (on how to use it)
+* Gemfile (line 27-28)
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+=== PostgreSQL's native text search
+* migration files
+* lib/tasks/enhance_schema_load.rake
+* lib/*.rb
+* app/models/product.rb
+* app/models/sample.rb
+* Gemfile (line 30)
